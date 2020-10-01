@@ -1,0 +1,52 @@
+{
+  "name": "map-k",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "xo": {
+    "envs": [
+      "es2020",
+      "browser"
+    ],
+    "space": false,
+    "node": false,
+    "prettier": false,
+    "nodeVersion": false,
+    "rules": {
+      "no-extra-semi": "error",
+      "camelcase": [
+        "off",
+        {
+          "properties": "never"
+        }
+      ],
+      "comma-spacing": [
+        "off",
+        {
+          "before": false,
+          "after": false
+        }
+      ],
+      "indent": [
+        "error",
+        "tab",
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "dependencies": {
+    "eslint-formatter-pretty": "^3.0.1"
+  },
+  "devDependencies": {
+    "xo": "^0.29.0"
+  }
+}

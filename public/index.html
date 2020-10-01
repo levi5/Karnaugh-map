@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src//pages/Home/style.css" link rel="stylesheet" type="text/css">
+    <link href="../src/global.css" link rel="stylesheet" type="text/css">
+    <title>Mapa Karnaugh</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <img class="logo" src="../src/assets/logo.png" />
+            <h3>Mapa De Karnaugh</h3>
+
+        </section>
+
+        <section class="search">
+
+            <input type="text" placeholder="Número de variáveis" />
+            <button class="btn  btn-search">GO</button>
+        </section>
+
+    </header>
+    <main>
+
+        <section class="section-table">
+            <div class="table-title">
+            </div>
+
+            <table class="table">
+            </table>
+
+        </section>
+
+        <section>
+            <div class="content-expression-truth">
+                <h3> Tabela Verdade</h3>
+                <h4>Expressão:</h4>
+
+                <p id='table-expression'></p>
+            </div>
+
+            <div class="MapK">
+                <h3>Mapa De Karnaugh</h3>
+
+                <div class="MapK-title">
+                    <h4>Expressão Final:</h4>
+                    <button id='Get-MapK' class="btn btn-disabled">Solution</button>
+                </div>
+                <p>
+
+                </p>
+
+                <div id="MapK-title-top">
+                </div>
+                <div id="content-table-MapK">
+                    <div id="MapK-title-left">
+                    </div>
+                    <table>
+
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+        </section>
+    </main>
+    <script type="module" src="../src/index.js"> </script>
+</body>
+
+</html>
