@@ -47,7 +47,6 @@
     "eslint-formatter-pretty": "^4.0.0"
   },
   "devDependencies": {
-  "^0.50.0",
     "trim-newlines": ">=3.0.1"
   }
 }
