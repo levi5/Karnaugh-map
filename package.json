@@ -5,7 +5,7 @@
   "license": "MIT",
   "xo": {
     "envs": [
-      "es2020",
+      "es2021",
       "browser"
     ],
     "space": false,
