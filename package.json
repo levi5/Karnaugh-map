@@ -44,7 +44,7 @@
     "test": "xo"
   },
   "dependencies": {
-    "eslint-formatter-pretty": "^4.0.0"
+    "eslint-formatter-pretty": "^5.0.0"
   },
   "devDependencies": {
     "trim-newlines": ">=3.0.1"
